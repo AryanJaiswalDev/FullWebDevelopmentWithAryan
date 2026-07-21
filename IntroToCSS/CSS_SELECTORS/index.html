@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+    <style>
+        /* element selector */
+        div{
+            /* background-color: red; */
+        }
+        /* class selector */
+        .red{
+            background-color: yellow;
+        }
+        /* id selector */
+        #green{
+            background-color: green;
+        }
+        /* child selector */
+        div > p{
+            color: bisque;
+            background-color: aqua;
+        }
+        /* universal selector */
+        *{
+            margin: 0;
+            padding:0;
+        }
+        /* Pseudo selector */
+        a:visited{
+            color: yellow;
+        }
+        a:link{
+            color: green;
+
+        }
+        a:active{
+            background-color: red;
+        }
+        a:hover{
+            background-color: black;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="red">
+        i am a divvvvvv
+    </div>
+
+     <div>
+        i am a divvvvvv
+       
+    </div>
+     <a href="https://www.google.com">go to google</a>
+      <a href="https://www.facebook.com">go to facebook</a>
+    
+    <div id="green">
+        i am a divvvvvv
+        <p>i am paragraph and my clour is blue becoz i am child of div</p>
+    </div>
+    
+</body>
+</html>
