@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+    color: aliceblue;
+}
+#navbar{
+    height: 40px;
+    
+    background-color: black;
+    
+    
+}
+body{
+    background-color: rgb(235, 228, 228);
+}
+button{
+    background-color: #f08804;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+    margin-right: 100px;
+}
+a{
+    margin-right: 200px;
+}
+.content{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(4, 0, 255);
+    border: 2px solid black;
+    display: inline-block;
+}
+h1{
+    color: black;
+}
+footer{
+    color: rgb(244, 240, 248);
+    text-align: center;
+    background-color: black;
+}
+#content{
+    height: 500px;
+}

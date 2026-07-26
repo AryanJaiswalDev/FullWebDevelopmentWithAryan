@@ -1,0 +1,44 @@
+div{
+   width: 100px;
+   height: 100px;
+   margin: 25px;
+   padding: 25px;
+   display: inline-block;
+  
+}
+/* #box2{
+    display: none;
+     visibility: hidden;
+
+} */
+
+#opacitycheck1{
+    background-color: rgba(255,0,0,0.1);
+}
+#opacitycheck2{
+    background-color: rgba(255,0,0,0.2);
+}
+#opacitycheck3{
+    background-color: rgba(255,0,0,0.3);
+}
+#opacitycheck4{
+    background-color: rgba(255,0,0,0.4);
+}
+#opacitycheck5{
+    background-color: rgba(255,0,0,0.5);
+}
+#opacitycheck6{
+    background-color: rgba(255,0,0,0.6);
+}
+#opacitycheck7{
+    background-color: rgba(255,0,0,0.7);
+}
+#opacitycheck8{
+    background-color: rgba(255,0,0,0.8);
+}
+#opacitycheck9{
+    background-color: rgba(255,0,0,0.9);
+}
+#opacitycheck10{
+    background-color: rgba(255,0,0,1);
+}
