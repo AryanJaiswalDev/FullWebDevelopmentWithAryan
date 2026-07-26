@@ -1,0 +1,17 @@
+h1{
+    text-transform: capitalize;
+    text-align: center;
+}
+p{
+    font-family: Times New Roman;
+}
+#upper{
+    font-size: 25;
+  
+}
+#lower{
+    font-size: 10;
+}
+body{
+    background-color: rgb(208, 112, 218);
+}
