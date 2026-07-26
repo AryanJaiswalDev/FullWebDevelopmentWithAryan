@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(205, 187, 222);
+}
+
+#box{
+    background-color: blue;
+    color: beige;
+}
+.heading{
+    color: brown;
+}
+button{
+    background-color: yellow;
+}

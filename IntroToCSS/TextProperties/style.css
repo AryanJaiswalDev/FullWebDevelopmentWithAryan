@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(241, 171, 208);
+}
+.center{
+    text-align: center;
+    font-family: Arial;
+}
+.right{
+    color: rgb(33, 103, 224);
+    text-align: right;
+}
+.left{
+    color: brown;
+    text-align: left;
+}
+h1{
+    color: black;
+    text-align: center;
+    text-decoration: white underline; }
+    /* text-decoration: overline;
+    text-decoration:line through;
+*/
+.nobottomline{
+    text-decoration: none;
+}
+#h1{
+    font-weight: lighter;
+}
+#h2{
+    font-weight: bold;
+}
+#h3{
+    font-weight: bolder;
+}
+#h4{
+    font-weight: 900;
+}
+#para1{
+    color: rgb(47, 23, 110);
+    font-size: larger;
+    line-height: 5;
+}
+#para2{
+    color: azure;
+    font-size: xx-large;
+}
