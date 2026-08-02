@@ -1,0 +1,9 @@
+div{
+   
+    height: 200px;
+    width: 200px;
+    background-image: url(image\ copy.png);
+    background-size: cover;
+   position: fixed;
+    /* position: absolute; */
+}
