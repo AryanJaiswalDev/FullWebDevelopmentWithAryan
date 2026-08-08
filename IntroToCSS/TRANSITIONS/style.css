@@ -3,19 +3,29 @@ div{
     width: 200px;
     background-color: rgb(46, 81, 70);
     border: 2px solid black;
-    transition: all;
+    position: absolute;
+    top:200px;
+    left: 100px;
+    /* transition: all;
     transition-duration: 2s;
     transition-timing-function: steps(5); 
     transition-delay: 2s; */
-     transition: all 2s ease-in 2s;
+     /* transition: all 2s ease-in 2s;
     transform: z rotate(45deg);
     
-     scale: 1;  
+    
+     scale: (1,2);   */ 
+     /* transform: scale(1,2); */
+     transition: all 1s ease-in 2s;
+
 }
 div:hover{
     background-color: black;
     color: aliceblue;
-    font-size: xx-large;
+    font-size: large;
+    /* transform: scale(2); */
+    /* transform: translatey(-200px); */
+    transform: skew(90deg);
 }
 div:active{
     background-color: yellow;
