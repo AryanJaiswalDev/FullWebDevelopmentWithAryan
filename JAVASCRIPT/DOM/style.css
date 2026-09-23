@@ -1,0 +1,25 @@
+body{
+    background-color: yellow;
+    
+}
+#headingid{
+    color: rgb(55, 17, 55);
+    text-transform: capitalize;
+  text-align: center; 
+    background-color: rgb(175, 90, 175);
+
+}
+.p{text-align: center;
+    background-color: rgb(244, 135, 135);
+    color: rgb(74, 12, 12);
+    text-align: end;
+    
+}
+button{
+    color: aliceblue;
+    background-color: blue;
+    text-align: center;
+}
+.h{
+    visibility: hidden;
+}

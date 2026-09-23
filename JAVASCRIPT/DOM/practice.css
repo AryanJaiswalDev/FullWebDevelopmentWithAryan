@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(140, 127, 255);
+}
+
+.box{
+    height: 260px;
+    width: 500px;
+    border: 2px solid black;
+}
