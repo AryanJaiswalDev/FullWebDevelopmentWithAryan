@@ -23,13 +23,19 @@ button{
 .h{
     visibility: hidden;
 } */
-
+/* 
 #box{
-    height: 100px;
+    height: 150px;
     width: 100px;
     background-color: rgb(23, 51, 74);
     color: wheat;
     border: 1px solid black;
     
-}
+} */
+.content{
+    color: blueviolet;
 
+}
+.newclass{
+    background-color: yellow;
+}

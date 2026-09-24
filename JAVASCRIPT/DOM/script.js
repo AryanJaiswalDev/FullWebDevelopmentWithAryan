@@ -113,3 +113,30 @@
 
 
 //Insert elements 
+//node.append(ele)//adds at the end
+//node.prepend(ele)//adds at start of node
+//node.before(ele)//adds before the node(outside)
+//node.after(ele)//adds after the node(outside)
+
+//delete element
+// node.remove()//removes the node 
+// let newbtn=document.createElement("button");
+// newbtn.innerText="click me";
+// console.log(newbtn);
+// let div=document.querySelector("div");
+// div.append(newbtn);
+// div.prepend(newbtn);
+// div.before(newbtn);
+// div.after(newbtn);
+// let newheading=document.createElement("h1");
+// newheading.innerHTML="hello";
+// document.querySelector("body").prepend(newheading);
+
+// let para=document.querySelector("p");
+// para.remove();
+
+// read about appendChild(),removeChild() from MDN 
+
+let para=document.querySelector("p");
+//para.setAttribute("class","newclass"); previous class completely gayab
+para.classList.add("newclass");//bachaliya previous styling
