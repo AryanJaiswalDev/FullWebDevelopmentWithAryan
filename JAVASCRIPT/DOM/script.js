@@ -43,15 +43,18 @@
 
 // //dom manipulation attributes 
 
-//getAttribute(attr)//to get the attribute value
-//setAttribute(atrr,value)//to set the attribute with value
 
-let div=document.querySelector("div");
-console.log(div);
-let id=div.getAttribute("id");
-console.log(id);//give id name line number 30 in html 
-let name=div.getAttribute("name");
-console.log(name);
+// html 30 to 34 line 
+// //getAttribute(attr)//to get the attribute value
+// //setAttribute(atrr,value)//to set the attribute with value
+
+// let div=document.querySelector("div");
+// console.log(div.setAttribute("class","new class"));
+// console.log(div);
+// let id=div.getAttribute("id");
+// console.log(id);//give id name line number 30 in html 
+// let name=div.getAttribute("name");
+
 
 
 // //QUERY SELECTOR --> return node list 
@@ -101,3 +104,12 @@ console.log(name);
 //     div.innerText='new value unique ${idx}';
 //     idx++;
 // }
+
+// //how to acces/modify Style in JS 
+// let div=document.querySelector("div");
+// // div.style.backgroundColor="green";
+// div.style.fontSize="25px";
+// div.innerText="Hello!"
+
+
+//Insert elements 
